@@ -87,69 +87,74 @@ Route::get('/iacuc/settings', function () {
 // superadmin
 Route::get('/superadmin/dashboard', function () {
     return view('superadmin.dashboard');
-})->name('superadmin.dashboard');
+});
 
 Route::get('/superadmin/accounts-classifications', function () {
     return view('superadmin.accounts-classifications');
-})->name('superadmin.accounts.classifications');
+});
 
 Route::get('/superadmin/pending-reviews', function () {
     return view('superadmin.pending-reviews');
-})->name('superadmin.pending-reviews');
+});
 
 Route::get('/superadmin/permission-control', function () {
     return view('superadmin.permission-control');
-})->name('superadmin.permission.control');
+});
 
 Route::get('/superadmin/assign-reviewer', function () {
     return view('superadmin.assign-reviewer');
-})->name('superadmin.assign.reviewer');
+});
 
 Route::get('/superadmin/research-records', function () {
     return view('superadmin.research-records');
-})->name('superadmin.research.records');
+});
 
 Route::get('/superadmin/reviewers-checklist', function () {
     return view('superadmin.reviewers-checklist');
-})->name('superadmin.reviewers.checklist');
+});
 
 Route::get('/superadmin/settings', function () {
     return view('superadmin.settings');
-})->name('superadmin.settings');
+});
 
 // reviewer
 Route::get('/reviewer/dashboard', function () {
     return view('reviewer.dashboard');
-})->name('reviewer.dashboard');
+});
 
 Route::get('/reviewer/protocol-assign', function () {
     return view('reviewer.protocol-assign');
-})->name('reviewer.protocol.assign');
+});
 
 Route::get('/reviewer/settings', function () {
     return view('reviewer.settings');
-})->name('reviewer.settings');
+});
 
 // student
 Route::get('/student/dashboard', function () {
     return view('student.dashboard');
-})->name('student.dashboard');
+});
 
 Route::get('/student/submit-forms', function () {
     return view('student.submit-forms');
-})->name('student.submit.forms');
+});
 
 Route::get('/student/submit-tickets', function () {
     return view('student.submit-tickets');
-})->name('student.submit-tickets');
+});
 
 Route::get('/student/download-forms', function () {
     return view('student.download-forms');
-})->name('student.download.forms');
+});
 
 Route::get('/student/settings', function () {
     return view('student.settings');
-})->name('student.settings');
+});
+
+// sample form layout
+Route::get('/student/forms/form2a', function () {
+    return view('student.forms.form2a');
+});
 
 //Storing Data through superadmin's permission-control
 Route::get('/superadmin/permission-control', [AdminController::class, 'index'])->name('permission-control');
