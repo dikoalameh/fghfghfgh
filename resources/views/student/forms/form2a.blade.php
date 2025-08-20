@@ -648,7 +648,6 @@
                 </div>
             </div>
             <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto shadow-md">
-                <h2 class="p-3 font-bold text-lg">STUDY PROTOCOL INFORMATION</h2>
                 <div class="p-3 flex justify-between items-start space-x-5">
                     <div class="flex flex-col basis-[33.33%] justify-end">
                         <label class="font-semibold">
