@@ -532,7 +532,8 @@
                                     persons to be included in the inclusion criteria.
                                 </span>
                             </label>
-                            <textarea name="conditions_characteristics" id="" class="mt-1 w-full resize-none"></textarea>
+                            <textarea name="conditions_characteristics" id=""
+                                class="mt-1 w-full resize-none"></textarea>
                         </div>
                         <div>
                             <label>
@@ -629,7 +630,8 @@
                                     stewardship responsibilities properly discussed.
                                 </span>
                             </label>
-                            <textarea name="procedures_confidentiality" id="" class="mt-1 w-full resize-none"></textarea>
+                            <textarea name="procedures_confidentiality" id=""
+                                class="mt-1 w-full resize-none"></textarea>
                         </div>
                         <div>
                             <label>
@@ -657,7 +659,7 @@
                     </div>
                     <div class="flex flex-col basis-[33.33%] justify-end">
                         <label class="font-semibold">
-                            NOTED BY: 
+                            NOTED BY:
                         </label>
                         <input type="text" name="notedby" class="mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px]">
                     </div>
@@ -665,17 +667,19 @@
                         <label class="font-semibold">
                             RESEARCH COORDINATOR
                         </label>
-                        <input type="text" name="coordinator" class="mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px]">
+                        <input type="text" name="coordinator"
+                            class="mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px]">
                     </div>
                 </div>
             </div>
             <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto shadow-md">
                 <div class="p-3 flex items-center justify-center space-x-2">
+                    <button type="button"
+                        class="bg-primary text-secondary hover:bg-secondary hover:text-primary duration-200 tracking-widest p-4 rounded">SAVE</button>
                     <a href="">
-                        <button type="button" class="bg-primary text-secondary hover:bg-secondary hover:text-primary duration-200 tracking-widest p-4 rounded">SAVE</button>
-                    </a>
-                    <a href="">
-                        <button type="submit" class="bg-secondary text-primary hover:bg-primary hover:text-secondary duration-200 tracking-widest p-4 rounded">EXPORT TO PDF</button>
+                        <button type="submit"
+                            class="bg-secondary text-primary hover:bg-primary hover:text-secondary duration-200 tracking-widest p-4 rounded">EXPORT
+                            TO PDF</button>
                     </a>
                 </div>
             </div>
