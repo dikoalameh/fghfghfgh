@@ -24,9 +24,7 @@
                 <textarea name="q4" id=""></textarea>
             </div>
             <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <a href="">
-                    <button type="button" class="bg-primary text-white p-4">SAVE</button>
-                </a>
+                <button type="button" class="bg-primary text-white p-4">SAVE</button>
                 <a href="">
                     <button type="submit" class="bg-secondary text-primary p-4">EXPORT TO PDF</button>
                 </a>
