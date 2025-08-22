@@ -411,10 +411,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="2">
+                                name="study_discuss" data-group="2">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="2">
+                                name="study_discuss" data-group="2">
                             <span>No</span>
                         </div>
                     </div>
@@ -426,10 +426,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="3">
+                                name="satisfactory_answers" data-group="3">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="3">
+                                name="satisfactory_answers" data-group="3">
                             <span>No</span>
                         </div>
                     </div>
@@ -441,10 +441,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="4">
+                                name="study_information" data-group="4">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="4">
+                                name="study_information" data-group="4">
                             <span>No</span>
                         </div>
                     </div>
@@ -456,7 +456,7 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="5">
+                                name="study_nature" data-group="5">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
                                 name="information_sheet" data-group="5">
@@ -466,16 +466,16 @@
                     <div>
                         <label class="max-sm:py-1 flex items-start space-x-2 max-sm:text-sm/6">
                             <span>
-                                6. Do you understand that you are fre to withdraw from the study at any time, without
+                                6. Do you understand that you are free to withdraw from the study at any time, without
                                 having to give a reason and without affecting your future medical care?
                             </span>
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="6">
+                                name="withdraw" data-group="6">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="6">
+                                name="withdraw" data-group="6">
                             <span>No</span>
                         </div>
                     </div>
@@ -489,10 +489,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="7">
+                                name="medical" data-group="7">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="7">
+                                name="medical" data-group="7">
                             <span>No</span>
                         </div>
                     </div>
@@ -504,10 +504,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="8">
+                                name="interview" data-group="8">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="8">
+                                name="interview" data-group="8">
                             <span>No</span>
                         </div>
                     </div>
@@ -519,10 +519,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="9">
+                                name="decision" data-group="9">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="9">
+                                name="decision" data-group="9">
                             <span>No</span>
                         </div>
                     </div>
@@ -535,10 +535,10 @@
                         </label>
                         <div class="flex mt-1 space-x-1">
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="10">
+                                name="voluntary" data-group="10">
                             <span>Yes</span>
                             <input type="checkbox" class="check mt-1 max-sm:w-[14px] max-sm:h-[14px]"
-                                name="information_sheet" data-group="10">
+                                name="voluntary" data-group="10">
                             <span>No</span>
                         </div>
                     </div>
