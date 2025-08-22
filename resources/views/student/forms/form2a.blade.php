@@ -18,21 +18,24 @@
                             STUDY PROTOCOL TITLE
                         </label>
                         <input type="text" name="protocol"
-                            class="block rounded border border-darkgray mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]" required>
+                            class="block rounded border border-darkgray mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]"
+                            required>
                     </div>
                     <div class="flex flex-col md:basis-1/3 w-full">
                         <label class="font-semibold text-base max-2xl:text-base max-lg:text-sm max-sm:text-[13px]">
                             PRINCIPAL INVESTIGATOR
                         </label>
                         <input type="text" name="piname"
-                            class="mt-1 rounded border border-darkgray w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]" required>
+                            class="mt-1 rounded border border-darkgray w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]"
+                            required>
                     </div>
                     <div class="flex flex-col md:basis-1/3 w-full">
                         <label class="font-semibold text-base max-2xl:text-base max-lg:text-sm max-sm:text-[13px]">
                             CO-INVESTIGATOR
                         </label>
                         <input type="text" name="coiname"
-                            class="mt-1 rounded border border-darkgray w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]" required>
+                            class="mt-1 rounded border border-darkgray w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]"
+                            required>
                     </div>
                 </div>
             </div>
@@ -173,7 +176,7 @@
                                         accomplish this?</b>
                                 </span>
                             </label>
-                            <textarea name="informed_consent" id=""
+                            <textarea name="informed_consent" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Cognitive Assessment -->
@@ -186,6 +189,7 @@
                                 </span>
                             </label>
                             <textarea name="cognitive_assessment" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Physical Health Risks -->
@@ -197,7 +201,7 @@
                                     conditions or physical frailty.
                                 </span>
                             </label>
-                            <textarea name="physical_risks" id=""
+                            <textarea name="physical_risks" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Respect and Autonomy -->
@@ -210,7 +214,7 @@
                                     text.
                                 </span>
                             </label>
-                            <textarea name="respect_autonomy" id=""
+                            <textarea name="respect_autonomy" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Privacy -->
@@ -224,6 +228,7 @@
                                 </span>
                             </label>
                             <textarea name="privacy_confidentiality" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Intervention Suitability -->
@@ -236,6 +241,7 @@
                                 </span>
                             </label>
                             <textarea name="intervention_suitability" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                     </div>
@@ -253,7 +259,7 @@
                                     and where appropriate, seek assent from the minors themselves.
                                 </span>
                             </label>
-                            <textarea name="parent_consent" id=""
+                            <textarea name="parent_consent" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Assent Process -->
@@ -265,7 +271,7 @@
                                     maturity, and developmental stage.
                                 </span>
                             </label>
-                            <textarea name="assent_process" id=""
+                            <textarea name="assent_process" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Protection from Harm -->
@@ -277,7 +283,7 @@
                                     Details on how should be specified.
                                 </span>
                             </label>
-                            <textarea name="harm_protection" id=""
+                            <textarea name="harm_protection" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Educational Balance -->
@@ -290,6 +296,7 @@
                                 </span>
                             </label>
                             <textarea name="educational_balance" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Mandatory Reporting -->
@@ -302,6 +309,7 @@
                                 </span>
                             </label>
                             <textarea name="mandatory_reporting" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Equitable Inclusion -->
@@ -314,6 +322,7 @@
                                 </span>
                             </label>
                             <textarea name="equitable_inclusion" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                     </div>
@@ -334,7 +343,7 @@
                                     specific disabilities (e.g., braille, sign language, or simplified text).
                                 </span>
                             </label>
-                            <textarea name="accessible_comm" id=""
+                            <textarea name="accessible_comm" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Capacity to Consent -->
@@ -346,7 +355,7 @@
                                     legal representatives when necessary.
                                 </span>
                             </label>
-                            <textarea name="consent_capacity" id=""
+                            <textarea name="consent_capacity" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Risk Mitigation -->
@@ -358,7 +367,7 @@
                                     harm.
                                 </span>
                             </label>
-                            <textarea name="risk_mitigation" id=""
+                            <textarea name="risk_mitigation" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Non-Discrimination -->
@@ -371,6 +380,7 @@
                                 </span>
                             </label>
                             <textarea name="non_discrimination" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Reasonable Accommodations -->
@@ -383,6 +393,7 @@
                                 </span>
                             </label>
                             <textarea name="reasonable_accommodations" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Monitoring -->
@@ -394,7 +405,8 @@
                                     unique to the disability.
                                 </span>
                             </label>
-                            <textarea name="monitoring" id="" class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
+                            <textarea name="monitoring" id="" class="mt-1 w-full resize-none max-sm:text-sm"
+                                placeholder="Page Number where description is found"></textarea>
                         </div>
                     </div>
                 </div>
@@ -415,6 +427,7 @@
                                 </span>
                             </label>
                             <textarea name="voluntary_participation" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Equitable Selection -->
@@ -427,6 +440,7 @@
                                 </span>
                             </label>
                             <textarea name="equitable_selection" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Privacy and Confidentiality -->
@@ -439,6 +453,7 @@
                                 </span>
                             </label>
                             <textarea name="privacy_confidentiality_2" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Benefit and Risk Analysis -->
@@ -451,6 +466,7 @@
                                 </span>
                             </label>
                             <textarea name="benefit_risk_analysis" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Independent Oversight -->
@@ -463,6 +479,7 @@
                                 </span>
                             </label>
                             <textarea name="independent_oversight" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Post-Study Support -->
@@ -475,6 +492,7 @@
                                 </span>
                             </label>
                             <textarea name="post_study_support" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                     </div>
@@ -494,6 +512,7 @@
                                 </span>
                             </label>
                             <textarea name="ethical_justification" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Scientific Validity -->
@@ -506,6 +525,7 @@
                                 </span>
                             </label>
                             <textarea name="scientific_validity" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Risk-Benefit Assessment -->
@@ -519,6 +539,7 @@
                                 </span>
                             </label>
                             <textarea name="risk_benefit_assessment" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Cultural Sensitivity -->
@@ -531,6 +552,7 @@
                                 </span>
                             </label>
                             <textarea name="cultural_sensitivity" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <!-- Compensation -->
@@ -541,7 +563,7 @@
                                     <b>Compensation:</b> Ensure fair and non-coercive incentives or reimbursements.
                                 </span>
                             </label>
-                            <textarea name="compensation" id=""
+                            <textarea name="compensation" id="" placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                     </div>
@@ -560,6 +582,7 @@
                                 </span>
                             </label>
                             <textarea name="potential_participants" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -572,6 +595,7 @@
                                 </span>
                             </label>
                             <textarea name="conditions_characteristics" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -584,6 +608,7 @@
                                 </span>
                             </label>
                             <textarea name="susceptible_to_risks" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -595,6 +620,7 @@
                                 </span>
                             </label>
                             <textarea name="special_vulnerability" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -606,6 +632,7 @@
                                 </span>
                             </label>
                             <textarea name="possible_indication" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -616,7 +643,8 @@
                                     methods and for obtaining consent are clearly described. Indicate how you would do.
                                 </span>
                             </label>
-                            <textarea name="procedure" id="" class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
+                            <textarea name="procedure" id="" class="mt-1 w-full resize-none max-sm:text-sm"
+                                placeholder="Page Number where description is found"></textarea>
                         </div>
                     </div>
                 </div>
@@ -665,6 +693,7 @@
                                 </span>
                             </label>
                             <textarea name="anonymity_confidentiality" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -678,6 +707,7 @@
                                 </span>
                             </label>
                             <textarea name="procedures_confidentiality" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                         <div>
@@ -690,6 +720,7 @@
                                 </span>
                             </label>
                             <textarea name="final_disposition" id=""
+                                placeholder="Page Number where description is found"
                                 class="mt-1 w-full resize-none max-sm:text-sm"></textarea>
                         </div>
                     </div>
@@ -698,7 +729,8 @@
 
             <!-- LAST PART -->
             <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto shadow-md">
-                <div class="p-3 flex flex-col md:flex-row justify-between items-start md:space-x-5 space-y-4 md:space-y-0">
+                <div
+                    class="p-3 flex flex-col md:flex-row justify-between items-start md:space-x-5 space-y-4 md:space-y-0">
                     <div class="flex flex-col md:basis-1/3 w-full">
                         <label class="font-semibold text-base max-2xl:text-base max-lg:text-sm max-sm:text-[13px]">
                             THESIS ADVISER
@@ -710,7 +742,8 @@
                         <label class="font-semibold text-base max-2xl:text-base max-lg:text-sm max-sm:text-[13px]">
                             NOTED BY:
                         </label>
-                        <input type="text" name="notedby" class="block rounded border border-darkgray mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]">
+                        <input type="text" name="notedby"
+                            class="block rounded border border-darkgray mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px] max-lg:h-[30px]">
                     </div>
                     <div class="flex flex-col md:basis-1/3 w-full">
                         <label class="font-semibold text-base max-2xl:text-base max-lg:text-sm max-sm:text-[13px]">
