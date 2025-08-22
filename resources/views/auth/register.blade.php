@@ -109,14 +109,3 @@
         </div>
     </form>
 </x-guest-layout>
-<script>
-    // disable enable textbox
-    document.addEventListener('DOMContentLoaded', function () {
-        const checkbox = document.getElementById('toggleCheckBox');
-        const textbox = document.getElementById('textBox');
-
-        checkbox.addEventListener('change', function () {
-            textbox.disabled = !this.checked;
-        });
-    });
-</script>

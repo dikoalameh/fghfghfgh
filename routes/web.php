@@ -160,6 +160,18 @@ Route::get('/student/forms/sampleform', function () {
     return view('student.forms.sampleform');
 });
 
+Route::get('/student/forms/form2b', function () {
+    return view('student.forms.form2b');
+});
+
+Route::get('/student/forms/form2c', function () {
+    return view('student.forms.form2c');
+});
+
+Route::get('/student/forms/form2d', function () {
+    return view('student.forms.form2d');
+});
+
 //Storing Data through superadmin's permission-control
 Route::get('/superadmin/permission-control', [AdminController::class, 'index'])->name('permission-control');
 Route::post('/superadmin/store', [AdminController::class, 'store'])->name('superadmin.store');

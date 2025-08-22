@@ -10,228 +10,164 @@
                 <h2 class="text-xl font-semibold mb-4">FORMS</h2>
                 <div class="grid max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- FORM 2(A) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(A)</h3>
-                            <p class="text-xs font-medium">STUDY PROTOCOL REVIEW CHECKLIST</h4>
+                    <a href="{{ url('student/forms/form2a') }}">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center cursor-pointer">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(A)</h2>
+                                <p class="text-xs font-medium">STUDY PROTOCOL REVIEW CHECKLIST</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(B) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(B)</h3>
-                            <p class="text-xs font-medium">APPLICATION FOR INITIAL REVIEW</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(B)</h2>
+                                <p class="text-xs font-medium">APPLICATION FOR INITIAL REVIEW</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(C) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(C)</h3>
-                            <p class="text-xs font-medium">INFORMED CONSENT FORM</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(C)</h2>
+                                <p class="text-xs font-medium">INFORMED CONSENT FORM</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(D) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(D)</h3>
-                            <p class="text-xs font-medium">INFORMED CONSENT FORM FOR P.I.</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(D)</h2>
+                                <p class="text-xs font-medium">INFORMED CONSENT FORM FOR P.I.</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 5(E) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="blockitems-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 5(E)</h3>
-                            <p class="text-xs font-medium">DOCUMENT HISTORY</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="blockitems-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 5(E)</h2>
+                                <p class="text-xs font-medium">DOCUMENT HISTORY</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(I) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(I)</h3>
-                            <p class="text-xs font-medium">CERTIFICATE OF EXEMPTION FROM REVIEW</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(I)</h2>
+                                <p class="text-xs font-medium">CERTIFICATE OF EXEMPTION FROM REVIEW</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(E) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(E)</h3>
-                            <p class="text-xs font-medium">PROTOCOL EVALUATION CHECKLIST</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(E)</h2>
+                                <p class="text-xs font-medium">PROTOCOL EVALUATION CHECKLIST</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 2(J) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(J)</h3>
-                            <p class="text-xs font-medium">INFORMED CONSENT EVALUATION CHECKLIST</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(J)</h2>
+                                <p class="text-xs font-medium">INFORMED CONSENT EVALUATION CHECKLIST</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(A) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(A)</h3>
-                            <p class="text-xs font-medium">RESUBMISSION</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(A)</h2>
+                                <p class="text-xs font-medium">RESUBMISSION</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(B) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(B)</h3>
-                            <p class="text-xs font-medium">REVIEW OF RESUBMITTED STUDY PROTOCOL</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(B)</h2>
+                                <p class="text-xs font-medium">REVIEW OF RESUBMITTED STUDY PROTOCOL</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(D) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(D)</h3>
-                            <p class="text-xs font-medium">APPLICATION FOR REVIEW OF AMENDMENT</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(D)</h2>
+                                <p class="text-xs font-medium">APPLICATION FOR REVIEW OF AMENDMENT</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(E) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(E)</h3>
-                            <p class="text-xs font-medium">AMENDMENTS</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(E)</h2>
+                                <p class="text-xs font-medium">AMENDMENTS</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
+                    </a>
+
                     <!-- FORM 3(J) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(J)</h3>
-                            <p class="text-xs font-medium">APPROVAL LETTER</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(J)</h2>
+                                <p class="text-xs font-medium">APPROVAL LETTER</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(O) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(O)</h3>
-                            <p class="text-xs font-medium">ETHICAL CLEARANCE FORM</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(O)</h2>
+                                <p class="text-xs font-medium">ETHICAL CLEARANCE FORM</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(C) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(C)</h3>
-                            <p class="text-xs font-medium">PROGRESS REPORTS</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(C)</h2>
+                                <p class="text-xs font-medium">PROGRESS REPORTS</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
 
                     <!-- FORM 3(L) -->
-                    <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                        <div class="block items-center flex-wrap gap-[10px]">
-                            <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(L)</h3>
-                            <p class="text-xs font-medium">FINAL REPORTS</p>
+                    <a href="">
+                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
+                            <div class="block items-center flex-wrap gap-[10px]">
+                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(L)</h2>
+                                <p class="text-xs font-medium">FINAL REPORTS</p>
+                            </div>
                         </div>
-                        <div class="right">
-                            <!-- lagay nyo lang download; e.g.(<a href="" download>) tas file as your href e.g. (<a href="images/image.jpeg">) para madownload ng user ung file -->
-                            <a href="#">
-                                <i class="bi bi-cloud-arrow-down-fill text-[30px]"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

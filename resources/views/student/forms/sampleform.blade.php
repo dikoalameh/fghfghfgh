@@ -1,34 +1,60 @@
 <x-student-layout>
     <main class="ml-[335px] max-2xl:ml-auto p-4">
         <form action="" method="POST" class="block">
-            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <p class="text-right mt-3 mr-3">SAMPLE FORM</p>
-                <h1 class="text-center mt-10 font-bold text-3xl mb-2">THIS IS A SAMPLE FORM</h1>
+            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto shadow-md">
+                <p class="text-right mt-3 mr-3 max-lg:text-sm max-md:text-sm max-sm:text-xs">FORM 2(A)</p>
+                <h1
+                    class="text-center mt-10 max-2xl:mt-6 max-lg:mt-6 max-md:mt-6 font-bold text-2xl max-xl:text-xl max-lg:text-lg max-md:text-base max-sm:text-sm mb-2 underline">
+                    STUDY PROTOCOL REVIEW
+                    CHECKLIST</h1>
             </div>
-            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <p>question 1:</p>
-                <input type="text" name="q1" class="block mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px]">
-                <p>question 2:</p>
-                <input type="text" name="q2" class="block mt-1 w-full text-[14px] max-sm:text-[13px] h-[35px]">
-            </div>
-            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <input type="checkbox" name="c1">
-                <label for="c1">checkbox 1</label>
-                <input type="checkbox" name="c2">
-                <label for="c2">checkbox 2</label>
-            </div>
-            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <p>question 3:</p>
-                <textarea name="q3" id=""></textarea>
-                <p>question 4:</p>
-                <textarea name="q4" id=""></textarea>
-            </div>
-            <div class="mt-3 p-1 max-w-7xl w-full bg-lightgray rounded mx-auto">
-                <button type="button" class="bg-primary text-white p-4">SAVE</button>
-                <a href="">
-                    <button type="submit" class="bg-secondary text-primary p-4">EXPORT TO PDF</button>
-                </a>
-            </div>
+            <!-- Group: Only one checkbox allowed -->
+            <label class="flex items-start space-x-2">
+                <input type="checkbox" class="exclusive-check toggle-box" data-group="sponsor" data-toggle="1">
+                <span>Sponsored by Pharmaceutical Company</span>
+            </label>
+            <input type="text" class="toggle-target text-sm h-[28px] rounded border border-darkgray"
+                placeholder="Specify" data-toggle="1" disabled>
+
+            <label class="flex items-start space-x-2 mt-2">
+                <input type="checkbox" class="exclusive-check toggle-box" data-group="sponsor" data-toggle="2">
+                <span>Others</span>
+            </label>
+            <input type="text" class="toggle-target text-sm h-[28px] rounded border border-darkgray"
+                placeholder="Specify" data-toggle="2" disabled>
+
         </form>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const checkboxes = document.querySelectorAll('.exclusive-check');
+
+                checkboxes.forEach(checkbox => {
+                    checkbox.addEventListener('change', function () {
+                        // Uncheck all others in the same data-group
+                        const group = this.dataset.group;
+                        const toggle = this.dataset.toggle;
+
+                        checkboxes.forEach(cb => {
+                            if (cb !== this && cb.dataset.group === group) {
+                                cb.checked = false;
+
+                                // Disable the textbox linked to the other checkbox
+                                const otherTextbox = document.querySelector(`.toggle-target[data-toggle="${cb.dataset.toggle}"]`);
+                                if (otherTextbox) {
+                                    otherTextbox.disabled = true;
+                                }
+                            }
+                        });
+
+                        // Enable/disable this checkbox's textbox
+                        const textbox = document.querySelector(`.toggle-target[data-toggle="${toggle}"]`);
+                        if (textbox) {
+                            textbox.disabled = !this.checked;
+                        }
+                    });
+                });
+            });
+
+        </script>
     </main>
 </x-student-layout>
