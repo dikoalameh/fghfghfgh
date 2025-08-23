@@ -5,7 +5,7 @@
             RESEARCH PROTOCOL ASSIGN
         </h2>
         <br>
-        
+
         <table id="myTable" class="min-w-full display overflow-scroll whitespace-no-wrap border-collapse w-full">
             <thead class="bg-primary text-white text-[18px]/7 max-lg:text-[16px]">
                 <tr class="header-table">
@@ -24,7 +24,13 @@
                     <td>John Doe</td>
                     <td>ERB 2025-001</td>
                     <td>Amendment Review</td>
-                    <td><button type="button" class="border-2 p-[5px] hover:bg-gray">View</button></td>
+                    <td>
+                        <a href="{{ url('reviewer/forms/form2e') }}">
+                            <button type="button" class="border-2 p-[5px] hover:bg-gray">
+                                View
+                            </button>
+                        </a>
+                    </td>
                     <td><button type="button" class="border-2 p-[5px] hover:bg-gray">View</button></td>
                     <td><button type="button" class="border-2 p-[5px] hover:bg-gray">View</button></td>
                 </tr>

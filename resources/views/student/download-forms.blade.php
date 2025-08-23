@@ -20,7 +20,7 @@
                     </a>
 
                     <!-- FORM 2(B) -->
-                    <a href="">
+                    <a href="{{ url('student/forms/form2b') }}">
                         <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
                             <div class="block items-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(B)</h2>
@@ -30,7 +30,7 @@
                     </a>
 
                     <!-- FORM 2(C) -->
-                    <a href="">
+                    <a href="{{ url('student/forms/form2c') }}">
                         <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
                             <div class="block items-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(C)</h2>
@@ -40,7 +40,7 @@
                     </a>
 
                     <!-- FORM 2(D) -->
-                    <a href="">
+                    <a href="{{ url('student/forms/form2d') }}">
                         <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
                             <div class="block items-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(D)</h2>
@@ -50,7 +50,7 @@
                     </a>
 
                     <!-- FORM 5(E) -->
-                    <a href="">
+                    <a href="{{ url('student/forms/form5e') }}">
                         <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
                             <div class="blockitems-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 5(E)</h2>
@@ -59,18 +59,8 @@
                         </div>
                     </a>
 
-                    <!-- FORM 2(I) -->
-                    <a href="">
-                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                            <div class="block items-center flex-wrap gap-[10px]">
-                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(I)</h2>
-                                <p class="text-xs font-medium">CERTIFICATE OF EXEMPTION FROM REVIEW</p>
-                            </div>
-                        </div>
-                    </a>
-
                     <!-- FORM 2(E) -->
-                    <a href="">
+                    <a href="{{ url('student/forms/form2e') }}">
                         <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
                             <div class="block items-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 2(E)</h2>
@@ -125,26 +115,6 @@
                             <div class="block items-center flex-wrap gap-[10px]">
                                 <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(E)</h2>
                                 <p class="text-xs font-medium">AMENDMENTS</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- FORM 3(J) -->
-                    <a href="">
-                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                            <div class="block items-center flex-wrap gap-[10px]">
-                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(J)</h2>
-                                <p class="text-xs font-medium">APPROVAL LETTER</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- FORM 3(O) -->
-                    <a href="">
-                        <div class="card bg-lightgray p-4 rounded-lg flex justify-between items-center">
-                            <div class="block items-center flex-wrap gap-[10px]">
-                                <h2 class="text-xl max-md:text-[18px] font-semibold">FORM 3(O)</h2>
-                                <p class="text-xs font-medium">ETHICAL CLEARANCE FORM</p>
                             </div>
                         </div>
                     </a>

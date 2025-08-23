@@ -172,6 +172,22 @@ Route::get('/student/forms/form2d', function () {
     return view('student.forms.form2d');
 });
 
+Route::get('/student/forms/form5e',function () {
+    return view('student.forms.form5e');
+});
+
+Route::get('/reviewer/forms/form2e',function () {
+    return view('reviewer.forms.form2e');
+});
+
+Route::get('/reviewer/forms/form2j',function () {
+    return view('reviewer.forms.form2j');
+});
+
+Route::get('/reviewer/forms/form3e',function () {
+    return view('reviewer.forms.form3e');
+});
+
 //Storing Data through superadmin's permission-control
 Route::get('/superadmin/permission-control', [AdminController::class, 'index'])->name('permission-control');
 Route::post('/superadmin/store', [AdminController::class, 'store'])->name('superadmin.store');

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title','Default title')</title>
+    <title>@yield('title', 'Default title')</title>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Icons -->
@@ -15,7 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fonts and Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    
+
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.5/css/responsive.dataTables.css">
@@ -50,6 +50,38 @@
             paging: false,
             responsive: true,
             scrollY: '300px'
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const checkboxes = document.querySelectorAll('.check');
+
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function () {
+                    const group = this.dataset.group;
+
+                    if (this.checked) {
+                        // Uncheck all other checkboxes in the same group
+                        checkboxes.forEach(cb => {
+                            if (cb !== this && cb.dataset.group === group) {
+                                cb.checked = false;
+                                // Disable textboxes
+                                const siblingTextbox = cb.closest('label').querySelector('#textBox');
+                                if (siblingTextbox) siblingTextbox.disabled = true;
+                            }
+                        });
+                    }
+
+                    // Enable/disable textbox
+                    const thisTextbox = this.closest('label').querySelector('#textBox');
+                    if (thisTextbox) thisTextbox.disabled = !this.checked;
+                });
+            });
+
+            // Initialize all textboxes on page load
+            checkboxes.forEach(cb => {
+                const textbox = cb.closest('label').querySelector('#textBox');
+                if (textbox) textbox.disabled = !cb.checked;
+            });
         });
         
         function toggleSidebar() {

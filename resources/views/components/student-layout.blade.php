@@ -131,7 +131,12 @@
                 "/student/download-forms": "DOWNLOAD FORMS",
                 "/student/submit-tickets": "SUBMIT TICKETS",
                 "/student/submit-form-layout": "SUBMIT FORMS",
-                "/student/settings": "SETTINGS"
+                "/student/settings": "SETTINGS",
+                "/student/forms/form2a": "FORM 2(A)",
+                "/student/forms/form2b": "FORM 2(B)",
+                "/student/forms/form2c": "FORM 2(C)",
+                "/student/forms/form2d": "FORM 2(D)",
+                "/student/forms/form5e": "FORM 5(E)",
             };
 
             const path = window.location.pathname;
