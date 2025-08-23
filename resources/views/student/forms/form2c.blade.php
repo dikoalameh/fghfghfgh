@@ -100,18 +100,11 @@
                     <p class="space-y-2 max-sm:text-sm/6">
                         I am / We are <i>(3rd year/4th year)</i> student of the <i>(College)</i>. <b>(OR)</b> <br>I am /
                         We
-                        are undertaking a research on <i>(topic of research)</i> <input type="text"
-                            name="research_title"
-                            class="h-[18px] max-sm:h-[11px] max-sm:text-sm border-t-0 border-l-0 border-r-0 border-b bg-lightgray">.
+                        are undertaking a research on <i>(topic of research)</i> _______________________________ .
                         <b>(OR)</b> <br>I am
-                        Dr. / Mr. / Ms. <input type="text" name="staff"
-                            class="h-[18px] max-sm:h-[11px] max-sm:text-sm border-t-0 border-l-0 border-r-0 border-b bg-lightgray">
-                        working in the <i>(College / Department)</i>
-                        <input type="text" name="college_dept"
-                            class="h-[18px] max-sm:h-[11px] max-sm:text-sm border-t-0 border-l-0 border-r-0 border-b bg-lightgray">
-                        as <i>(Designation)</i>
-                        <input type="text" name="designation"
-                            class="h-[18px] max-sm:h-[11px] max-sm:text-sm border-t-0 border-l-0 border-r-0 border-b bg-lightgray">.
+                        Dr. / Mr. / Ms. _______________________________
+                        working in the <i>(College / Department)</i> _______________________________
+                        as <i>(Designation)</i> _______________________________ .
                     </p>
                 </div>
                 <div class="px-3 py-2 md:space-x-5 space-y-5 md:space-y-0">
